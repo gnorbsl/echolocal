@@ -9,7 +9,7 @@ EPOCH := $(shell date -u +%s)
 BUILT_FROM := $(shell git status --porcelain 2>/dev/null | grep -q . && echo dirty || echo $(GIT_COMMIT))
 VERSION ?= $(if $(GIT_TAG),$(GIT_TAG),$(BASE)-dev.$(EPOCH)_$(BUILT_FROM))
 
-REPO ?= ygelfand/echolocal
+REPO ?= gnorbsl/echolocal
 RELEASES ?= https://github.com/$(REPO)/releases
 
 BUILDVARS := github.com/ygelfand/echolocal/internal/layout

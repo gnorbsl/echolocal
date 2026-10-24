@@ -15,7 +15,8 @@ const (
 	Dev
 )
 
-const repo = "https://github.com/ygelfand/echolocal"
+// Updates come from this fork, which carries its own changes on top of the official releases.
+const repo = "https://github.com/gnorbsl/echolocal"
 
 func (c Channel) Label() string {
 	switch c {
