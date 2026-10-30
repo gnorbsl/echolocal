@@ -27,6 +27,7 @@ var screenOnly = []string{
 	"github.com/ygelfand/echolocal/internal/feature/dashboard",
 	"github.com/ygelfand/echolocal/internal/feature/poster",
 	"github.com/ygelfand/echolocal/internal/feature/message",
+	"github.com/ygelfand/echolocal/internal/feature/remotescreen",
 	"github.com/ygelfand/echolocal/internal/feature/assistant",
 	"github.com/ygelfand/echolocal/internal/feature/homeassistant",
 	"github.com/ygelfand/echolocal/internal/feature/homecontrol",

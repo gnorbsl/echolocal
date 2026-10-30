@@ -1,0 +1,29 @@
+{
+  "id": "evening",
+  "title": "Good evening",
+  "body": [
+    {"type": "row", "items": [
+      {"type": "text", "text": "21 °C", "size": "huge", "bold": true},
+      {"type": "column", "items": [
+        {"type": "text", "text": "Dinner is in 20 minutes.", "size": "large"},
+        {"type": "text", "text": "Updated 18:42", "size": "small"}
+      ]}
+    ]},
+    {"type": "row", "items": [
+      {"type": "button", "id": "movie", "label": "Movie mode", "style": "primary"},
+      {"type": "button", "id": "all_off", "label": "All off"}
+    ]},
+    {"type": "switch", "id": "kitchen_light", "label": "Kitchen light", "on": true},
+    {"type": "slider", "id": "living_brightness", "label": "Living room", "value": 40, "min": 0, "max": 100, "step": 5},
+    {"type": "checklist", "id": "shopping", "label": "Shopping", "items": [
+      {"id": "milk", "label": "Milk", "done": false},
+      {"id": "bread", "label": "Bread", "done": true}
+    ]},
+    {"type": "progress", "label": "Dishwasher", "value": 0.65},
+    {"type": "column", "items": [
+      {"type": "text", "text": "Front door", "bold": true},
+      {"type": "image", "url": "http://homeassistant.local:8123/local/jarvis/front.jpg"}
+    ]},
+    {"type": "markdown", "text": "**Markdown** is not drawn yet, so this is left out"}
+  ]
+}

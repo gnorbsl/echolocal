@@ -19,6 +19,7 @@ import (
 	_ "github.com/ygelfand/echolocal/internal/feature/message"
 	_ "github.com/ygelfand/echolocal/internal/feature/poster"
 	_ "github.com/ygelfand/echolocal/internal/feature/privacy"
+	_ "github.com/ygelfand/echolocal/internal/feature/remotescreen"
 	_ "github.com/ygelfand/echolocal/internal/feature/screen"
 	_ "github.com/ygelfand/echolocal/internal/feature/settings"
 	_ "github.com/ygelfand/echolocal/internal/feature/splash"
